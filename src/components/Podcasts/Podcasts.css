@@ -1,0 +1,30 @@
+.single-podcast {
+  font-family: sans-serif;
+  text-align: left;
+  height: 200px;
+  width: 300px;
+  background-image: url("https://media.istockphoto.com/vectors/neon-microphone-and-glowing-border-frame-template-for-karaoke-live-vector-id1217737633?s=612x612");
+  opacity: 0.9;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.podcast-info {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0%;
+}
+
+.podcast-info p {
+  color: yellow;
+  font-size: 1rem;
+}
+
+.podcast-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}

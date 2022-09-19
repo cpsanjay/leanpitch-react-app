@@ -1,0 +1,81 @@
+.why-we-matter {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 4rem;
+}
+
+.heading-container {
+  text-align: center;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container h2 {
+  color: yellow;
+  font-size: 4rem;
+}
+
+.heading-container img {
+  width: 10rem;
+  transform: translateX(70%);
+}
+
+.why-we-matter-container {
+  display: flex;
+  align-items: center;
+}
+
+.why-we-matter-container img {
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
+  padding: 2rem;
+}
+
+.why-we-matter-title h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.why-we-matter-title span {
+  font-size: 1.5rem;
+}
+
+.why-we-matter button {
+  background-color: transparent;
+  display: flex;
+  margin: 1.5rem auto;
+  border: 2px solid white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.why-we-matter svg {
+  width: 1.5rem;
+  padding-left: 0.75rem;
+}
+
+@media (max-width: 780px) {
+  .why-we-matter-container img {
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+  .why-we-matter span {
+    font-size: 0.75rem;
+  }
+  .why-we-matter-title span {
+    font-size: 1rem;
+  }
+  .why-we-matter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,34 @@
+.single-blog {
+  font-family: sans-serif;
+  text-align: left;
+  height: 200px;
+  width: 300px;
+  background-image: url("https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  opacity: 0.9;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.blog-info {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0%;
+}
+
+.blog-info p {
+  color: yellow;
+  font-size: 1rem;
+}
+
+.blog-info p:last-child {
+  color: white;
+}
+
+.blog-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}

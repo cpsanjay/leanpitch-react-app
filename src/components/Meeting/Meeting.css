@@ -1,0 +1,31 @@
+.meeting-container {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.meeting-container h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.button-container-meetup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.button-container-meetup .active {
+  background-color: black;
+  padding: 0.5rem 1rem;
+}
+.button-container-meetup .not-active {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.meeting-container p {
+  font-family: sans-serif;
+}

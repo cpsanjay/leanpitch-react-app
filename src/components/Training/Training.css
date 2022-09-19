@@ -1,0 +1,65 @@
+.training-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.training-title {
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.training-elements {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.training-element1 {
+  cursor: pointer;
+  width: 250px;
+  background-color: rgba(0, 73, 121);
+  border-radius: 10px;
+}
+
+.training-container img {
+  padding: 1rem;
+}
+
+.training-container p {
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+.date {
+  background-color: darkblue;
+}
+
+.training-element1 > p {
+  margin-bottom: 1rem;
+}
+
+.register-btn {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10rem;
+  width: 10rem;
+  font-weight: bold;
+}
+
+.training-container .upcoming {
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: lightgray;
+}
+
+@media (max-width: 900px) {
+  .training-element1 {
+    width: 200px;
+  }
+}
