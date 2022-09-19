@@ -9,18 +9,18 @@ const Navbar = () => {
       <div className="navbar-logo">
         <img src={Logo} alt="navbar-logo" className="navbar-img" />
 
-        <Link>
+        <Link to="/">
           <p>Leanpitch</p>
         </Link>
       </div>
       <ul className="navbar-elements">
         <li className="active">
-          <Link to="/subcribe">
+          <Link to="/">
             <p>Subscibe</p>
           </Link>
         </li>
         <li>
-          <Link to="/constactus">
+          <Link to="/">
             <p>Contact Us</p>
           </Link>
         </li>
