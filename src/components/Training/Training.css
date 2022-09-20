@@ -24,20 +24,21 @@
   border-radius: 10px;
 }
 
-.training-container img {
+.training-element1 img {
   padding: 1rem;
 }
 
-.training-container p {
+.training-element1 p {
   padding: 0 1rem;
   font-size: 1rem;
 }
 .date {
-  background-color: darkblue;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .training-element1 > p {
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .register-btn {
@@ -61,5 +62,10 @@
 @media (max-width: 900px) {
   .training-element1 {
     width: 200px;
+  }
+  .training-elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }

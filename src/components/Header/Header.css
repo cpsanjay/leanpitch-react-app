@@ -50,3 +50,14 @@ header p {
 .outlet-active {
   outline: 0.75rem solid yellow;
 }
+
+.send-btn {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  background-color: rgb(180, 132, 44);
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

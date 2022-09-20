@@ -142,6 +142,7 @@ const Header = () => {
         {border === "bevolunteer" && <BeAVolunteer />}
         {border === "aboutus" && <AboutUs />}
       </div>
+      <button className="send-btn">Send message</button>
     </header>
   );
 };
